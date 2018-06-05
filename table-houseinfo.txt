@@ -1,0 +1,14 @@
+CREATE TABLE `houseinfo` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `priceTotal` varchar(45) DEFAULT NULL,
+  `priceAvg` varchar(45) DEFAULT NULL,
+  `area` varchar(45) DEFAULT NULL,
+  `zone` varchar(45) DEFAULT NULL,
+  `houseName` varchar(45) DEFAULT NULL,
+  `houseFloor` varchar(45) DEFAULT NULL,
+  `houseType` varchar(45) DEFAULT NULL,
+  `houseWay` varchar(45) DEFAULT NULL,
+  `createTime` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `copyType` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=54064 DEFAULT CHARSET=utf8;
